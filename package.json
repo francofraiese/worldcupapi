@@ -1,0 +1,34 @@
+{
+  "name": "worldcupapi",
+  "version": "1.0.0",
+  "description": "API with FIFA World Cup data. Groups, matchs, teams and playoffs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francofraiese/worldcupapi.git"
+  },
+  "author": "Franco Fraiese",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0",
+    "npm": ">=8.14"
+  },
+  "bugs": {
+    "url": "https://github.com/francofraiese/worldcupapi/issues"
+  },
+  "homepage": "https://github.com/francofraiese/worldcupapi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.2"
+  }
+}
